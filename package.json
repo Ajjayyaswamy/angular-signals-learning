@@ -2,7 +2,7 @@
   "name": "angular-signals-learning",
   "displayName": "Angular Signals Learning",
   "description": "A hands-on Angular Signals course with five guided lessons, TypeScript examples, and an interactive counter.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "Ajjayyaswamy",
   "icon": "icon.png",
   "license": "MIT",
