@@ -1,9 +1,10 @@
 {
   "name": "angular-signals-learning",
   "displayName": "Angular Signals Learning",
-  "description": "Learn Angular Signals through step-by-step interactive lessons.",
-  "version": "0.0.1",
+  "description": "A hands-on Angular Signals course with five guided lessons, TypeScript examples, and an interactive counter.",
+  "version": "0.0.2",
   "publisher": "Ajjayyaswamy",
+  "icon": "icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,6 +15,13 @@
   },
   "categories": [
     "Education"
+  ],
+  "keywords": [
+    "angular",
+    "signals",
+    "tutorial",
+    "typescript",
+    "education"
   ],
   "main": "./out/extension.js",
   "contributes": {

@@ -41,7 +41,7 @@ const lessons: Lesson[] = [
 		readingTime: '4 min',
 		intro: 'An effect runs when the signals it reads change. Use it to connect reactive state to an imperative API, such as logging or browser storage.',
 		concept: 'Effects are for side effects, not for copying one signal into another. Prefer computed() when the goal is to derive a value.',
-		code: "import { effect, signal } from '@angular/core';\n\nexport class ThemeComponent {\n  theme = signal('light');\n\n  constructor() {\n    effect(() => {\n      localStorage.setItem('theme', this.theme());\n    });\n  }\n}"
+    code: "import { effect, signal } from '@angular/core';\n\nexport class ThemeComponent {\n  theme = signal('light');\n\n  constructor() {\n    effect(() => {\n      localStorage.setItem('theme', this.theme());\n    });\n  }\n}"
 	},
 	{
 		title: 'Let the template subscribe',
