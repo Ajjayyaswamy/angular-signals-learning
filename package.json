@@ -1,0 +1,38 @@
+{
+  "name": "angular-signals-learning",
+  "displayName": "Angular Signals Learning",
+  "description": "Learn Angular Signals through step-by-step interactive lessons.",
+  "version": "0.0.1",
+  "publisher": "Ajjayyaswamy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ajjayyaswamy/angular-signals-learning.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Education"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "angularSignalsLearning.start",
+        "title": "Angular Signals: Start Learning",
+        "category": "Angular Signals"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
