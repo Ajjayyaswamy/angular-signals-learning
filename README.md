@@ -36,10 +36,13 @@ Move from your first writable signal to reactive values in Angular templates wit
 
 ## Install and Start
 
-1. Install **Angular Signals Learning** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Ajjayyaswamy.angular-signals-learning).
-2. Open the Command Palette with **Ctrl+Shift+P** (Windows/Linux) or **Cmd+Shift+P** (macOS).
-3. Run **Angular Signals: Start Learning**.
-4. Choose a lesson from the course outline and select **Mark complete** when you're ready to continue.
+1. In VS Code, open **Extensions** with **Ctrl+Shift+X** (Windows/Linux) or **Cmd+Shift+X** (macOS).
+2. Search for **Angular Signals Learning** and select **Install**. You can also install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Ajjayyaswamy.angular-signals-learning).
+3. After installation, open the Command Palette with **Ctrl+Shift+P** (Windows/Linux) or **Cmd+Shift+P** (macOS).
+4. Type **Angular Signals: Start Learning** and press **Enter**. This opens the course in a new editor tab; installation alone does not open the course automatically.
+5. Choose a lesson from the course outline. Use **Mark complete** to record a lesson and continue through the course.
+
+If VS Code asks you to reload after installation or an update, select **Reload** first, then run the start command. To open the course again later, run the same command from the Command Palette.
 
 ## Run From Source
 
